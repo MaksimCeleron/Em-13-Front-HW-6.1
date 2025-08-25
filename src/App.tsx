@@ -21,7 +21,7 @@ function App() {
           </div>
         </header>
         <main className="container content">
-          <h1>PROJECT<br>Lorum</br></h1>
+          <h1>PROJECT<br><b>Lorum</b></h1>
         </main>
         <footer className="container footer">
           MaksimCeleron 2025
