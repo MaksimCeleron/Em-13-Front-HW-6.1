@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.nav-item.current-page::before,
+.nav-item.current-page::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: black;
+}
+
+.nav-item.current-page .nav-text {
+  letter-spacing: 5px;
+}
+
 html, body {
     height: 100%;
     margin: 0;

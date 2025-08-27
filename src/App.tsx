@@ -12,11 +12,21 @@ function App() {
         <header className="container header">
           <div className="nav">
             <ul>
-              <li><a href="/">MAIN</a></li>
-              <li><a href="/gallery">GALLERY</a></li>
-              <li><a href="/projects">PROJECTS</a></li>
-              <li><a href="/certifications">CERTIFICATIONS</a></li>
-              <li><a href="/contacts">CONTACTS</a></li>
+              <div className="nav-item current-page">
+                <li><a href="/">MAIN</a></li>
+              </div>
+              <div className="nav-item">
+                <li><a href="/gallery">GALLERY</a></li>
+              </div>
+              <div className="nav-item">
+                <li><a href="/projects">PROJECTS</a></li>
+              </div>
+              <div className="nav-item">
+                <li><a href="/certifications">CERTIFICATIONS</a></li
+              </div>
+              <div className="nav-item">
+                <li><a href="/contacts">CONTACTS</a></li>
+              </div>
             </ul>
           </div>
         </header>
