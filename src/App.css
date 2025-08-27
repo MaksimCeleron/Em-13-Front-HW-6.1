@@ -13,7 +13,7 @@
   background-color: black;
 }
 
-.nav-item.current-page li a {
+.nav-item li a {
   letter-spacing: 5px;
 }
 
