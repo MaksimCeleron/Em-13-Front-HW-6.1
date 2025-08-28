@@ -11,18 +11,23 @@ nav ul {
 }
 
 .current-page {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  background-image: linear-gradient(to right, black, black),
+                    linear-gradient(to right, black, black);
+  
+  background-position: top, bottom;
+
+  background-size: 100% 1px;
+
+  background-repeat: no-repeat;
+  
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
 }
 
-.current-page::before,
-.current-page::after {
-  content: '';
-  height: 1px;
-  background-color: black;
-  flex-grow: 1;
-}
 
 li a {
   text-decoration: none;
