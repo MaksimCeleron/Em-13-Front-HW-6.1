@@ -7,7 +7,10 @@
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .current-page {
@@ -17,9 +20,9 @@ nav ul {
   background-image: linear-gradient(to right, black, black),
                     linear-gradient(to right, black, black);
   
-  background-position: top, bottom;
+  background-position: center top, center bottom;
 
-  background-size: 100% 1px;
+  background-size: calc(100% + 10px) 1px;
 
   background-repeat: no-repeat;
   
@@ -27,7 +30,6 @@ nav ul {
   color: black;
   letter-spacing: 5px;
 }
-
 
 li a {
   text-decoration: none;
