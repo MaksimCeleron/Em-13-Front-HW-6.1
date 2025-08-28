@@ -4,21 +4,29 @@
   box-sizing: border-box;
 }
 
-.nav-item.current-page {
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.current-page {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.nav-item.current-page::before,
-.nav-item.current-page::after {
+.current-page::before,
+.current-page::after {
   content: '';
   height: 1px;
   background-color: black;
   flex-grow: 1;
 }
 
-.nav-item li a {
+li a {
+  text-decoration: none;
+  color: black;
   letter-spacing: 5px;
 }
 
