@@ -28,6 +28,12 @@ nav ul {
   letter-spacing: 5px;
 }
 
+li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
+}
+
 h1 {
   text-align: left;
 }
