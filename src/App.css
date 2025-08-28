@@ -16,22 +16,13 @@ nav ul {
 .current-page {
   padding-top: 5px;
   padding-bottom: 5px;
-
+  padding-left: 10px;
+  padding-right: 10px;
   background-image: linear-gradient(to right, black, black),
                     linear-gradient(to right, black, black);
-  
   background-position: center top, center bottom;
-
-  background-size: calc(100% + 10px) 1px;
-
+  background-size: 100% 1px;
   background-repeat: no-repeat;
-  
-  text-decoration: none;
-  color: black;
-  letter-spacing: 5px;
-}
-
-li a {
   text-decoration: none;
   color: black;
   letter-spacing: 5px;
