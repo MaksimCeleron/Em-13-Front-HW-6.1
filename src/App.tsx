@@ -6,7 +6,7 @@ function App() {
     <>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
           rel="stylesheet"
@@ -16,11 +16,21 @@ function App() {
         <header className="container header">
           <nav>
             <ul>
-              <li className="current-page"><a href="/">MAIN</a></li>
-              <li><a href="/gallery">GALLERY</a></li>
-              <li><a href="/projects">PROJECTS</a></li>
-              <li><a href="/certifications">CERTIFICATIONS</a></li>
-              <li><a href="/contacts">CONTACTS</a></li>
+              <li className="current-page">
+                <a href="/">MAIN</a>
+              </li>
+              <li>
+                <a href="/gallery">GALLERY</a>
+              </li>
+              <li>
+                <a href="/projects">PROJECTS</a>
+              </li>
+              <li>
+                <a href="/certifications">CERTIFICATIONS</a>
+              </li>
+              <li>
+                <a href="/contacts">CONTACTS</a>
+              </li>
             </ul>
           </nav>
         </header>
