@@ -39,6 +39,7 @@ function App() {
             <div className="light">PROJECT</div>
             <div className="bold">Lorum</div>
           </h1>
+          <img src="https://placehold.co/381x752" />
         </main>
         <footer className="container footer">MaksimCeleron 2025</footer>
       </div>
