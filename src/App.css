@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-nav ul {
+ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -13,7 +13,13 @@ nav ul {
   margin: 0;
 }
 
-.current-page {
+li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
+}
+
+.current-page a {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -23,15 +29,6 @@ nav ul {
   background-position: center top, center bottom;
   background-size: 100% 1px;
   background-repeat: no-repeat;
-  text-decoration: none;
-  color: black;
-  letter-spacing: 5px;
-}
-
-li a {
-  text-decoration: none;
-  color: black;
-  letter-spacing: 5px;
 }
 
 h1 {
