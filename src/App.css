@@ -36,11 +36,11 @@ h1 {
 }
 
 .light {
-  font-weight: light;
+  font-weight: 100;
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 html,

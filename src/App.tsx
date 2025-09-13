@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import house from "./assets/house.jpg";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
             <div className="light">PROJECT</div>
             <div className="bold">Lorum</div>
           </h1>
-          <img src="https://placehold.co/381x752" />
+          <img src={house} alt="House" />
         </main>
         <footer className="container footer">MaksimCeleron 2025</footer>
       </div>
