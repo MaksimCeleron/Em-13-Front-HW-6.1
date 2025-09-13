@@ -44,7 +44,9 @@ h1 {
 }
 
 .house {
-  background-position: 344x100;
+  width: 344;
+  height: 100;
+  object-fit: cover;
 }
 
 html,
