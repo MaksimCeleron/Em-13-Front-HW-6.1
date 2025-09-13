@@ -40,7 +40,9 @@ function App() {
             <div className="light">PROJECT</div>
             <div className="bold">Lorum</div>
           </h1>
-          <img src={house} alt="House" />
+          <div className="house">
+            <img src={house} alt="House" />
+          </div>
         </main>
         <footer className="container footer">MaksimCeleron 2025</footer>
       </div>
